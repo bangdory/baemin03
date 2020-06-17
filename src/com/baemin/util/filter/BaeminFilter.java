@@ -36,11 +36,11 @@ public class BaeminFilter implements Filter {
 
         } else if (Integer.parseInt(session.getAttribute("grade") + "") == 2) {
             // --- 사업장 회원 로그인 상태
-            ((HttpServletResponse) response).sendRedirect("/shop/Main.do");
+            ((HttpServletResponse) response).sendRedirect("/baemin03/shop/Main.do");
 
         } else if (Integer.parseInt(session.getAttribute("grade") + "") == 3) {
             // --- 관리자 로그인 상태
-            ((HttpServletResponse) response).sendRedirect("/admin/Main.do");
+            ((HttpServletResponse) response).sendRedirect("/baemin03/admin/Main.do");
 
         }
     }
