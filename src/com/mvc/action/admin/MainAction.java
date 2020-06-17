@@ -15,7 +15,7 @@ public class MainAction implements CommandAction {
         //
 
         ///////////////// 이 위에 내용 넣으세요 /////////////////////////
-        return "aaaa";
+        return "/admin/Main.jsp";
     }
 
 }
